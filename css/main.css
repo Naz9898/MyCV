@@ -1,6 +1,10 @@
 /* Buttons */
 /* Inputs */
 /* Timeline custom component */
+a {
+  text-decoration: none;
+}
+
 .timeline {
   border-left: 2px solid #E6E9ED;
   padding: 1rem 0; }
@@ -93,9 +97,10 @@ html {
   margin-left: auto;
   margin-right: auto; }
 
-.avatar img {
+/* .avatar img { */
   /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%); }
+  /* filter: grayscale(100%);  */
+/* } */
 
 footer a:not(.nav-link) {
   color: inherit;
